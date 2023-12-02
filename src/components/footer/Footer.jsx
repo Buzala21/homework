@@ -5,11 +5,7 @@ import Image from 'next/image'
 function Footer() {
   return (
     <div className={styles.container} >
-      {/* ehaaaaaaa */}
-      {/* ssss */}
-      {/* hhhh */}
-      {/* fffff */}
-      {/* eeee */}
+      {/* ესეც ახალი ბრენჩი */}
       <div>@all rights reserved</div>
       <div className={styles.socialNetwork} >
         <Image src="/1.png" width={15} className={styles.icon} height={15} alt='facebook'/>
