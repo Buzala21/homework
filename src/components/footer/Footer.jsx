@@ -8,6 +8,8 @@ function Footer() {
       {/* ehaaaaaaa */}
       {/* ssss */}
       {/* hhhh */}
+      {/* fffff */}
+      {/* eeee */}
       <div>@all rights reserved</div>
       <div className={styles.socialNetwork} >
         <Image src="/1.png" width={15} className={styles.icon} height={15} alt='facebook'/>
