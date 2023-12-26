@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 
 const getData = async () => {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts`)
+  const res = await fetch(`https://api.escuelajs.co/api/v1/products`)
   if (!res.ok){
     throw new  Error ("There is no data")
   }
@@ -33,7 +33,7 @@ async function Blog() {
         <Link href={`/blog/${singleBlog.id}`} className={styles.container} >
         <div className={styles.imageContainer} >
         <Image
-              src={"/pexels.jpg"}
+              src={singleBlog.images[0]}
               alt="Blog Image"
               width={400}
               height={250}
@@ -45,7 +45,7 @@ async function Blog() {
           <div className={styles.content}>
             <h1 className={styles.title}>{singleBlog.title}</h1>
             <p className={styles.desc}> 
-            {singleBlog.body}
+            {singleBlog.description}
             </p>
            
           </div>

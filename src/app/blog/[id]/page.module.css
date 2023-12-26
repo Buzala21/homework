@@ -49,3 +49,22 @@
   color: #999;
   text-align: justify;
 }
+.imgButton {
+  position: absolute;
+  z-index: 10;
+  border: none;
+  background-color: white;
+  border: 1px solid black;
+  padding: 0 5px;
+  border-radius: 10px;
+}
+
+.nextButton {
+  right: 5px;
+  top: 140px;
+}
+
+.prevButton {
+  left: 5px;
+  top: 140px;
+}
