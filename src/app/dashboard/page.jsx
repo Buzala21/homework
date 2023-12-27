@@ -22,6 +22,7 @@
 "use client"
 
 import React, { useEffect, useState } from 'react'
+import Link from 'next/link'
 
 function Dashboard() {
 
@@ -42,6 +43,9 @@ function Dashboard() {
              მეორე
       </button>
       {/* "https://api.escuelajs.co/api/v1/products%22" */}
+      
+      <Link href={"/dashboard/crud"}>go to crud operations</Link>
+      
       </div>
     
   )
